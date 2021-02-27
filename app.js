@@ -16,7 +16,7 @@ const url=process.env.MONGO_URL || "mongodb://localhost:27017/test";
 
 
 //Db connection
-mongoose.connect('mongodb://localhost/vidly',
+mongoose.connect('mongodb+srv://kapil123:kapil123@cluster0.wjkqg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
 {
   useNewUrlParser: true,
   useUnifiedTopology: true,
